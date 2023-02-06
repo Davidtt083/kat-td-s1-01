@@ -50,7 +50,7 @@ function funcion1() {
 	var btn1 = document.getElementById('btn1');
 	var btn2 = document.getElementById('btn2');
 	var circint = document.getElementById('btnint');
-	var endtime = 4;
+	var endtime = 6;
 	btn2.classList.remove('btncirc');
 	btn2.classList.add('btn');
 	circint.classList.remove('intebtncirc');
@@ -75,7 +75,7 @@ function funcion1() {
 	 }
 
 	 vid3.addEventListener("timeupdate", function() {
-		if (this.currentTime >= 2) {
+		if (this.currentTime >= 3) {
 			 this.pause();
 			 console.log(this.currentTime);
 		 }
@@ -99,8 +99,8 @@ function funcion1() {
 	var btn2 = document.getElementById('btn3');
 	var btn3 = document.getElementById('btn2');
 	var circint = document.getElementById('btnint1');
-	var starttime = 3;
-	var endtime = 6;
+	var starttime = 6;
+	var endtime = 8;
 	btn2.classList.remove('btncirc');
 	btn2.classList.add('btn');
 	circint.classList.remove('intebtncirc');
@@ -130,7 +130,7 @@ function funcion1() {
 	 }
 	
 	 vid3.addEventListener("timeupdate", function() {
-		if (this.currentTime >= 5) {
+		if (this.currentTime >= 6) {
 			 this.pause();
 			 console.log(this.currentTime);
 		 }
@@ -138,7 +138,7 @@ function funcion1() {
 	 vid3.load();
 	 vid3.play();    //must call this otherwise can't seek on some browsers, e.g. Firefox 4
 	 try {
-		 vid3.currentTime = starttime;
+		 vid3.currentTime = 3;
 		 
 	 } catch (ex) {
 		 //handle exceptions here
@@ -152,7 +152,7 @@ function funcion1() {
 	var vid4 = document.getElementById('videof3');
 	var btn1 = document.getElementById('btn1');
 	var btn3 = document.getElementById('btn3');
-	var starttime = 6;
+	var starttime = 8;
 	var endtime = 13;
 	var regre = document.getElementById('volver');
 	regre.innerHTML = "Volver a comenzar";
@@ -180,7 +180,7 @@ function funcion1() {
 	 }
 
 	 vid4.addEventListener("timeupdate", function() {
-		if (this.currentTime >= 13) {
+		if (this.currentTime >= endtime) {
 			 this.pause();
 			 console.log(this.currentTime);
 		 }
@@ -188,7 +188,7 @@ function funcion1() {
 	 vid4.load();
 	 vid4.play();    //must call this otherwise can't seek on some browsers, e.g. Firefox 4
 	 try {
-		 vid4.currentTime = starttime;
+		 vid4.currentTime = 6;
 		 
 	 } catch (ex) {
 		 //handle exceptions here
