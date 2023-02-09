@@ -65,7 +65,7 @@ function funcion1() {
 			 console.log(this.currentTime);
 		 }
 	 }, false);
-	 vid.load();
+	 
 	 vid.play();    //must call this otherwise can't seek on some browsers, e.g. Firefox 4
 	 try {
 		 vid.currentTime = starttime;
@@ -80,7 +80,7 @@ function funcion1() {
 			 console.log(this.currentTime);
 		 }
 	 }, false);
-	 vid3.load();
+	 
 	 vid3.play();    //must call this otherwise can't seek on some browsers, e.g. Firefox 4
 	 try {
 		 vid3.currentTime = starttime;
@@ -120,7 +120,7 @@ function funcion1() {
 			 console.log(this.currentTime);
 		 }
 	 }, false);//suppose that video src has been already set properly
-	 vid.load();
+	 
 	 vid.play();    //must call this otherwise can't seek on some browsers, e.g. Firefox 4
 	 try {
 		 vid.currentTime = starttime;
@@ -135,7 +135,7 @@ function funcion1() {
 			 console.log(this.currentTime);
 		 }
 	 }, false);
-	 vid3.load();
+	 
 	 vid3.play();    //must call this otherwise can't seek on some browsers, e.g. Firefox 4
 	 try {
 		 vid3.currentTime = 3;
@@ -170,7 +170,7 @@ function funcion1() {
 			 console.log(this.currentTime);
 		 }
 	 }, false);//suppose that video src has been already set properly
-	 vid.load();
+	 
 	 vid.play();    //must call this otherwise can't seek on some browsers, e.g. Firefox 4
 	 try {
 		 vid.currentTime = starttime;
@@ -185,7 +185,7 @@ function funcion1() {
 			 console.log(this.currentTime);
 		 }
 	 }, false);
-	 vid4.load();
+	
 	 vid4.play();    //must call this otherwise can't seek on some browsers, e.g. Firefox 4
 	 try {
 		 vid4.currentTime = 6;
