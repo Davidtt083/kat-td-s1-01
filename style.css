@@ -209,9 +209,9 @@ a {
 }
 
 .videof1 {
-  width: 89%;
+  width: 100%;
   position: absolute;
-  margin-left: 64px;
+  margin-left: -5px;
   margin-top: 58px;
 }
 
